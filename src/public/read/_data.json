@@ -1,0 +1,89 @@
+ {
+   "browsers": {
+     "title": "Browsers"
+   },
+   "bookmarks": {
+     "title": "Bookmarks"
+   },
+   "crypto": {
+     "title": "Crypto Currency News"
+   },
+   "weather": {
+     "title": "Weather News"
+   },
+   "cnn": {
+     "title": "CNN Top News"
+   },
+   "data": {
+     "title": "Interesting"
+   },
+   "gaming": {
+     "title": "Gaming"
+   },
+   "jokes": {
+     "title": "Jokes"
+   },
+   "know": {
+     "title": "You should know"
+   },
+   "learn": {
+     "title": "Learn that"
+   },
+   "life": {
+     "title": "Life Advice"
+   },
+   "lifeprotips": {
+     "title": "Life tips"
+   },
+   "password": {
+     "title": "Passwords"
+   },
+   "trending": {
+     "title": "Now Trending"
+   },
+   "startups": {
+     "title": "Startup News"
+   },
+   "words": {
+     "title": "Word of the day"
+   },
+   "river": {
+     "title": "River News"
+   },
+   "week": {
+     "title": "Weekly Round-up"
+   },
+   "enterprise": {
+     "title": "Enterprise News"
+   },
+   "korea": {
+     "title": "Korean News"
+   },
+   "webdev": {
+     "title": "Web Development"
+   },
+   "chromeos": {
+     "title": "Chrome OS"
+   },
+   "tech": {
+     "title": "Technology"
+   },
+   "netsec": {
+     "title": "Network Security"
+   },
+   "kdrama": {
+     "title": "K-Dramas"
+   },
+   "market": {
+     "title": "Market Overview"
+   },
+   "saved": {
+     "title": "Saved Links"
+   },
+   "hangul": {
+     "title": "Hangul"
+   },
+   "programming": {
+    "title": "Programming"
+  }
+ }
