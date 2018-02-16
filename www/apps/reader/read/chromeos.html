@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8" />
   <title>
-    <%- title %>
+    Chrome OS
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -105,7 +105,7 @@
         <div class="container">
           <header class="major">
             <h2>
-              <%- title %>
+              Chrome OS
             </h2>
           </header>
         </div>
@@ -161,7 +161,8 @@
   <script src="//cdn.ravenjs.com/3.9.1/raven.min.js"></script>
   <script src="/components/debug/sentry.js"></script>
 
-  <%- yield %>
+  <script src="/components/reddit/functions.js"></script><script>let url = "https://www.reddit.com/r/chromeos/hot.json";
+reddit(url);</script>
 
 </body>
 

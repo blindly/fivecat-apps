@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Fivecat</ShortName>
+  <Description>Search and News - Friendly and Informed</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Url type="text/html" template="https://fivecat.xyz/?q={searchTerms}" />
+  <Image height="16" width="16" type="image/x-icon">https://fivecat.xyz/images/avatar-transparent.png</Image>
+</OpenSearchDescription>

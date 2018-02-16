@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8" />
   <title>
-    <%- title %>
+    Life Advice
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -105,7 +105,7 @@
         <div class="container">
           <header class="major">
             <h2>
-              <%- title %>
+              Life Advice
             </h2>
           </header>
         </div>
@@ -161,7 +161,7 @@
   <script src="//cdn.ravenjs.com/3.9.1/raven.min.js"></script>
   <script src="/components/debug/sentry.js"></script>
 
-  <%- yield %>
+  <script src="/components/rss/show_feed.js"></script><script src="//api.fivecat.xyz/api/index.php/feed/life?callback=show_feed"></script>
 
 </body>
 

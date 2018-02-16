@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8" />
   <title>
-    <%- title %>
+    Learn that
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -105,7 +105,7 @@
         <div class="container">
           <header class="major">
             <h2>
-              <%- title %>
+              Learn that
             </h2>
           </header>
         </div>
@@ -161,7 +161,12 @@
   <script src="//cdn.ravenjs.com/3.9.1/raven.min.js"></script>
   <script src="/components/debug/sentry.js"></script>
 
-  <%- yield %>
+  <style>article::first-letter {
+    font-weight: bold;
+    color: #629DD1;
+    text-transform: capitalize;
+}
+</style><script src="/components/reddit/til.js"></script>
 
 </body>
 
