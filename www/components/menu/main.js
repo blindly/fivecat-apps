@@ -14,19 +14,16 @@
 
         {href: '/apps/reader/read/week', text: 'top weekly'},
       
-        //{href: '/read/know', text: 'know this!'},
+        {href: '/apps/reader/read/know', text: 'know this!'},
         {href: '/apps/reader/read/lifeprotips', text: 'life tips'},
-        //{href: '/read/learn', text: 'learn'},
+        {href: '/apps/reader/read/learn', text: 'learn'},
         //{href: '/read/life', text: 'life advice'},
 
-        //{href: '/read/chromeos', text: 'chrome os'},
         {href: '/apps/reader/read/browsers', text: 'browsers'},
-        {href: '/apps/reader/read/netsec', text: 'Network'},
+        {href: '/apps/reader/read/netsec', text: 'security'},
 
         {href: '/apps/reader/read/gaming', text: 'gaming'},
-        //{href: '/read/data', text: 'interesting'},
-        //{href: '/read/korea', text: 'korea'},
-        //{href: '/read/kdrama', text: 'kdrama'},
+
         {href: '/apps/reader/read/jokes', text: 'jokes'},
         //
     ];
