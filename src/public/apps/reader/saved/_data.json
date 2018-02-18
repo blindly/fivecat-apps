@@ -2,6 +2,9 @@
    "links": {
      "title": "Saved Links"
    },
+   "bookmarks": {
+     "title": "Bookmarks"
+   },
    "jokes": {
      "title": "Saved Jokes"
    }
