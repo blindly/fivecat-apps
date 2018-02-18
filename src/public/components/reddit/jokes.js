@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log(children);
     $.each(children, function (key, value) {
       var score = children[key]['data']['score'];
+      var id = children[key]['data']['id'];
 
       if (score > max) {
         var title = children[key]['data']['title'];
@@ -26,11 +27,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var title_length = title.length;
 
-        if (title.substring(0, title_length) == text.substring(0, title_length)) {
-          var article = "<article><p>" + text + "</p></article>";
-        } else {
-          var article = "<article><p>" + title + " - " + text + "</p></article>";
-        }
+        var joke = "";
+        if (title.substring(0, title_length) == text.substring(0, title_length))
+          joke = text;
+        else 
+          joke = title + "... "+ text;
+          
+        let save = "<span class='pull-right'><a href=\"javascript:save_joke('" + id + "')\" ><i class='fa fa-cloud' aria-hidden=\"true\"></i></a></span>"; 
+        var article = "<article id='"+ id +"'>" + joke + ""+ save +"</article>";
 
         if (show)
           $('#news').append(article);

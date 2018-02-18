@@ -5,7 +5,7 @@
         {href: '/apps/reader/read/startups', text: 'startups'},
         {href: '/apps/reader/read/webdev', text: 'web dev'},
         {href: '/apps/reader/read/crypto', text: 'altcoin'},
-        {href: '/apps/reader/read/saved', text: 'saved links'},
+        {href: '/apps/reader/saved/links', text: 'saved links'},
       
         {href: '/apps/reader/read/tech', text: 'technology'},
         {href: '/apps/reader/read/programming', text: 'programming'},
@@ -25,6 +25,8 @@
         {href: '/apps/reader/read/gaming', text: 'gaming'},
 
         {href: '/apps/reader/read/jokes', text: 'jokes'},
+        {href: '/apps/reader/saved/jokes', text: 'saved jokes'},
+
         //
     ];
 
