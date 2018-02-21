@@ -27,8 +27,8 @@ var renderHandle;
 
 var isSoundEnabled = true;
 var isGestureAquired = false;
-var audio = new Audio('/timer/sounds/beep.mp3');
-var unmuteAudio = new Audio('/timer/sounds/unmute.mp3');
+var audio = new Audio('/apps/timer/sounds/beep.mp3');
+var unmuteAudio = new Audio('/apps/timer/sounds/unmute.mp3');
 
 var isCanNotify = false;
 var isNotifyEnabled = true;
@@ -602,9 +602,9 @@ function startIcon(alt) {
   link.rel = 'shortcut icon';
   
   if (alt)
-    link.href = '/timer/images/break.png';
+    link.href = '/apps/timer/images/break.png';
   else
-    link.href = '/timer/images/work.png';
+    link.href = '/apps/timer/images/work.png';
 
   document.getElementsByTagName('head')[0].appendChild(link);
 }
@@ -613,6 +613,6 @@ function stopIcon() {
   var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
   link.type = 'image/x-icon';
   link.rel = 'shortcut icon';
-  link.href = '/timer/images/stop.png';
+  link.href = '/apps/timer/images/stop.png';
   document.getElementsByTagName('head')[0].appendChild(link);
 }
