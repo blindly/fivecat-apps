@@ -20,4 +20,4 @@ function learn_languages() {
   }, false);
 }
 
-get_affirmation();
+learn_languages();
