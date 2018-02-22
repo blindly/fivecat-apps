@@ -14,7 +14,8 @@ function learn_languages() {
       
     $.getJSON(url, function (json) {
       var translation = json.translation;
-      var div = "<blockquote class='align-center'>" + translation + "</blockquote>";
+      var original = json.original;
+      var div = "<blockquote class='align-center'>" + translation + ":"+ original +"</blockquote>";
       $('#quote').append(div);
     });
   }, false);
