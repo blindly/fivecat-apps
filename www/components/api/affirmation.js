@@ -15,7 +15,7 @@ function get_affirmation() {
     $.getJSON(url, function (json) {
       var affirmation = json.affirmation;
       var div = "<blockquote class='align-center'>" + affirmation + "</blockquote>";
-      $('#affirmation').append(div);
+      $('#quote').append(div);
     });
   }, false);
 }
