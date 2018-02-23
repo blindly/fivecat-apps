@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8" />
   <title>
-    List Translations
+    <%- title %>
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -86,7 +86,7 @@
   <!-- Wrapper -->
   <div id="wrapper">
 
-    <div class="container"><table id="languages" class="table"></table></div><script>list_translations();</script>
+    <%- yield %>
 
   </div>
 

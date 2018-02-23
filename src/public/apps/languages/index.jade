@@ -1,0 +1,10 @@
+div.container
+  section.wrapper
+    div.card( onclick='flip()')
+      div.front#translation
+      div.back#original
+
+  a(href="javascript:location.reload(true)") Next
+  
+  script.
+    random_translation();
