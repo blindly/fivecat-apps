@@ -15,8 +15,13 @@ function learn_languages() {
     $.getJSON(url, function (json) {
       var translation = json.translation;
       var original = json.original;
-      var div = "<blockquote class='align-center'>" + translation + " : "+ original +"</blockquote>";
-      $('#quote').append(div);
+      var phonetic = json.phonetic;
+      
+      $('#translation').html(translation);
+      $('#translation').attr("title", phonetic);
+
+      $('#original').html(original);
+      
     });
   }, false);
 }
