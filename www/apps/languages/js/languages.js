@@ -43,6 +43,7 @@ function random_translation() {
       var phonetic = json.phonetic;
       
       $('#translation').html(translation);
+      $('#phonetic').html( String(phonetic) );
       $('#translation').attr("title", phonetic);
 
       $('#original').html(original);

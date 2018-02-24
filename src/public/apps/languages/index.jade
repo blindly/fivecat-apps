@@ -1,12 +1,13 @@
-.container
-  #card.card.col5-md
-    .front.alert.alert-info
-      h1#translation.text-center
-    .back.well.well-lg
-      h1#original.text-center
+#card.card.col5-md
+  .front.alert.alert-info
+    h1#translation.text-center
+    hr
+    h1#phonetic.text-center
+  .back.well.well-lg
+    h1#original.text-center
 
-  br
-  a(href="javascript:location.reload(true)") Next
-  
-  script.
-    random_translation();
+br
+a(href="javascript:location.reload(true)") Next
+
+script.
+  random_translation();
