@@ -1,9 +1,11 @@
-div.container
-  section.wrapper
-    div.card( onclick='flip()')
-      div.front#translation
-      div.back#original
+.container
+  #card.card.col5-md
+    .front.alert.alert-info
+      h1#translation.text-center
+    .back.well.well-lg
+      h1#original.text-center
 
+  br
   a(href="javascript:location.reload(true)") Next
   
   script.
